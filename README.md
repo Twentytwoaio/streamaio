@@ -21,7 +21,7 @@
 
 ---
 
-## 📌 Cara Instalasi
+## 📌 Catatan
 
 > **Sebelum memulai**, pastikan Anda telah mengunggah kode StreamAio ini ke repositori GitHub Anda sendiri.  
 > Jika belum, ikuti langkah-langkah berikut:
@@ -39,12 +39,18 @@ git branch -M main
 git push -u origin main
 ```
 
-### 1️⃣ **Siapkan Server**
-Pastikan server/VPS Anda telah menginstal **Node.js**, **npm**, dan **FFmpeg** sebelum meng-clone repositori ini.
+## 📌 Cara Instalasi
 
+> **Sebelum mulai:** Pastikan server / VPS kamu sudah terinstall Node.js, npm, dan FFmpeg sebelum meng-clone repositori ini.
+
+### 1️⃣ **Install Node.js dan npm melalui NodeSource PPA:**
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-sudo apt-get install -y nodejs npm
+sudo apt-get install -y nodejs
+sudo apt-get install -y npm
+```
+Cek apakah instalasi berhasil:
+```bash
 node -v
 npm -v
 ```
@@ -53,6 +59,9 @@ npm -v
 ```bash
 sudo apt-get update
 sudo apt-get install -y ffmpeg
+```
+Cek apakah instalasi berhasil:
+```bash
 ffmpeg -version
 ```
 
@@ -73,24 +82,30 @@ npm install
 ```
 
 ### 6️⃣ **Jalankan Aplikasi**
+Kembali ke directory root (jika masih di directory streamaio)
 ```bash
-pm start
-```
-Atau menggunakan PM2:
-```bash
-pm install -g pm2
-pm2 start index.js --name "streamaio"
-pm2 save
-pm2 logs streamaio --lines 10
+cd ..
 ```
 
-### 7️⃣ **Cek Status Aplikasi**
+🚀 Perintah menjalankan aplikasi ✨
+```bash
+pm2 start streamaio
+pm2 logs streamaio -i 0 --lines 1
+```
+
+📈 Melihat status aplikasi berjalan
 ```bash
 pm2 status streamaio
 ```
 
-### 8️⃣ **Konfigurasi Streaming**
-Pastikan Anda sudah memiliki **Stream Key** dari platform streaming yang akan digunakan. Konfigurasinya dapat dilakukan melalui tampilan aplikasi.
+⛔ Menghentikan aplikasi
+```bash
+pm2 stop streamaio
+```
+
+### 7️⃣ **Konfigurasi Streaming**
+* Pastikan kamu sudah mengatur URL RTMP yang sesuai untuk setiap platform yang ingin digunakan. Konfigurasi ini bisa dilakukan langsung melalui tampilan aplikasi.
+* Silahkan dapatkan Stream Key dari platform streaming yang kamu gunakan.
 
 ---
 
@@ -102,14 +117,8 @@ Pastikan Anda sudah memiliki **Stream Key** dari platform streaming yang akan di
 
 ---
 
-## 🤝 Kontribusi
-
-Jika ingin berkontribusi atau melaporkan bug, silakan buat **Pull Request** atau buka **Issue** di repositori GitHub Anda.
-
----
-
 ## 📜 Lisensi
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/GITHUB_URL_ANDA/streamaio/blob/main/LICENSE)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Twentytwoaio/streamaio/blob/main/LICENSE)
 
 Hak Cipta © 2025 - [Nama Anda](https://github.com/Twentytwoaio)
