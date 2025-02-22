@@ -23,7 +23,7 @@
 
 ## 📌 Cara Instalasi
 
-> **Sebelum memulai**, pastikan Anda telah mengunggah kode ini ke repositori GitHub Anda sendiri.  
+> **Sebelum memulai**, pastikan Anda telah mengunggah kode StreamAio ini ke repositori GitHub Anda sendiri.  
 > Jika belum, ikuti langkah-langkah berikut:
 
 ### **1️⃣ Upload Kode ke GitHub**
