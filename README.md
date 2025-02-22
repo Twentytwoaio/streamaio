@@ -26,7 +26,7 @@
 > **Sebelum memulai**, pastikan Anda telah mengunggah kode StreamAio ini ke repositori GitHub Anda sendiri.  
 > Jika belum, ikuti langkah-langkah berikut:
 
-### **1️⃣ Upload Kode ke GitHub**
+### **⚠️ Upload Kode ke GitHub**
 Jika belum memiliki repositori GitHub, buat dan unggah kode dengan perintah berikut:
 
 ```bash
