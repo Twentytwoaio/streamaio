@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="LOGO" src="https://raw.githubusercontent.com/Twentytwoaio/streamaio/refs/heads/main/public/img/logo.png" width="420" height="auto" />
+  <img alt="LOGO" src="https://raw.githubusercontent.com/Twentytwoaio/streamaio/img/logo.png" width="420" height="auto" />
 </div>
 
 # StreamAio: Aplikasi Live Streaming Multi-Window
@@ -7,7 +7,7 @@
 **StreamAio** adalah aplikasi live streaming yang memungkinkan pengguna untuk melakukan siaran langsung ke berbagai platform seperti YouTube, Facebook, dan lainnya menggunakan protokol RTMP. Aplikasi ini berjalan di VPS (Virtual Private Server) dan mendukung streaming ke banyak platform sekaligus dengan fitur multi-window. StreamAio juga dilengkapi dengan fitur login dan riwayat streaming untuk memantau aktivitas siaran langsung.
 
 <p align="center">
-  <img alt="screenshot" src="https://raw.githubusercontent.com/Twentytwoaio/streamaio/refs/heads/main/public/img/screenshot.jpg" width="500px" height="auto" />
+  <img alt="screenshot" src="https://raw.githubusercontent.com/Twentytwoaio/streamaio/img/screenshot.jpg" width="500px" height="auto" />
 </p>
 
 ---
@@ -98,4 +98,4 @@ Jika ingin berkontribusi atau melaporkan bug, silakan buat **Pull Request** atau
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/GITHUB_URL_ANDA/streamaio/blob/main/LICENSE)
 
-Hak Cipta © 2025 - [Nama Anda](https://github.com/GITHUB_URL_ANDA)
+Hak Cipta © 2025 - [Nama Anda](https://github.com/Twentytwoaio)
