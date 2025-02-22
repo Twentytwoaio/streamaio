@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="LOGO" src="https://raw.githubusercontent.com/Twentytwoaio/streamaio/img/logo.png" width="420" height="auto" />
+  <img alt="LOGO" src="https://raw.githubusercontent.com/Twentytwoaio/streamaio/refs/heads/main/img/logo.png" width="420" height="auto" />
 </div>
 
 # StreamAio: Aplikasi Live Streaming Multi-Window
@@ -7,7 +7,7 @@
 **StreamAio** adalah aplikasi live streaming yang memungkinkan pengguna untuk melakukan siaran langsung ke berbagai platform seperti YouTube, Facebook, dan lainnya menggunakan protokol RTMP. Aplikasi ini berjalan di VPS (Virtual Private Server) dan mendukung streaming ke banyak platform sekaligus dengan fitur multi-window. StreamAio juga dilengkapi dengan fitur login dan riwayat streaming untuk memantau aktivitas siaran langsung.
 
 <p align="center">
-  <img alt="screenshot" src="https://raw.githubusercontent.com/Twentytwoaio/streamaio/img/screenshot.jpg" width="500px" height="auto" />
+  <img alt="screenshot" src="https://raw.githubusercontent.com/Twentytwoaio/streamaio/refs/heads/main/img/screenshot.jpg" width="500px" height="auto" />
 </p>
 
 ---
@@ -49,7 +49,7 @@ npm install -g pm2
 
 ### 4️⃣ **Clone Repositori** *(Gantilah dengan URL repositori GitHub Anda!)*
 ```bash
-git clone https://github.com/GITHUB_URL_ANDA/streamaio.git
+git clone https://github.com/GITHUB_USERNAME_ANDA/streamaio/
 cd streamaio
 ```
 
