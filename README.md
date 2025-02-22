@@ -23,7 +23,20 @@
 
 ## 📌 Cara Instalasi
 
-> **Sebelum memulai**, pastikan Anda sudah memiliki akun GitHub dan menyimpan kode ke repositori pribadi. Silakan unggah ke GitHub dan pastikan repositori dalam mode **Private** agar hanya Anda yang memiliki akses.
+> **Sebelum memulai**, pastikan Anda telah mengunggah kode ini ke repositori GitHub Anda sendiri.  
+> Jika belum, ikuti langkah-langkah berikut:
+
+### **1️⃣ Upload Kode ke GitHub**
+Jika belum memiliki repositori GitHub, buat dan unggah kode dengan perintah berikut:
+
+```bash
+# Inisialisasi Git dan buat repositori baru
+git init
+git remote add origin https://github.com/GITHUB_USERNAME_ANDA/streamaio.git
+git add .
+git commit -m "Inisialisasi proyek StreamAio"
+git branch -M main
+git push -u origin main
 
 ### 1️⃣ **Siapkan Server**
 Pastikan server/VPS Anda telah menginstal **Node.js**, **npm**, dan **FFmpeg** sebelum meng-clone repositori ini.
