@@ -37,6 +37,7 @@ git add .
 git commit -m "Inisialisasi proyek StreamAio"
 git branch -M main
 git push -u origin main
+```
 
 ### 1️⃣ **Siapkan Server**
 Pastikan server/VPS Anda telah menginstal **Node.js**, **npm**, dan **FFmpeg** sebelum meng-clone repositori ini.
