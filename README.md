@@ -121,4 +121,4 @@ pm2 stop streamaio
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Twentytwoaio/streamaio/blob/main/LICENSE)
 
-Hak Cipta © 2025 - [Nama Anda](https://github.com/Twentytwoaio)
+Hak Cipta © 2025 - [Twentytwo Aio](https://github.com/Twentytwoaio)
